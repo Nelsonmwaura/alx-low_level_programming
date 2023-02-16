@@ -1,14 +1,12 @@
 #include <stdio.h>
+
 /**
- *  * main-Aprogram that prints a line using puts function
- *   * Return: 0 (success)
- *    */
+ * main - Entry point
+ * Description: prints "\"Programming is like building a multilingual puzzle"
+ * Return: 0
+   */
 int main(void)
 {
-		/string initialisation/
-			char Mystr[] = "\"Programming is like building a multilingual puzzle";
-
-		puts(Mystr); /writing the string to stdout/
-
+		puts("\"Programming is like building a multilingual puzzle");
 			return (0);
 }
