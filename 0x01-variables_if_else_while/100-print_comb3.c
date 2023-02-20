@@ -13,14 +13,14 @@ for (a = '0'; b <= '5'; a++)
 {
 for (b = '0'; b <= '5'; b++)
 {
-if (a < i)
+if (a < b)
 {
 putchar(a);
 putchar(b);
 if (a != '2' || (a == '2' && b != '5'))
 {
 putchar (',');
-putchar ('');
+putchar (' ');
 }
 }
 }
