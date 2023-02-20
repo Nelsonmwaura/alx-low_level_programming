@@ -3,29 +3,28 @@
 /**
 * main - Entyr point
 * Description: prints two digits combination
-* Return: Always 0 (success)
+* Return: 0 Always success
 */
 int main(void)
 {
-int c, i;
 
-for (c = '0'; c <= '9'; c++)
+int a, b;
+for (a = '0'; b <= '5'; a++)
 {
-for (i = '0'; i <= '9'; i++)
+for (b = '0'; b <= '5'; b++)
 {
-if (c < i)
+if (a < i)
 {
-putchar(c);
-
-putchar(i);
-}
-if (c != '8' || (c == '8' && i != '9'))
+putchar(a);
+putchar(b);
+if (a != '2' || (a == '2' && b != '5'))
 {
-putchar(',');
-putchar(' ');
-}																								}
+putchar (',');
+putchar ('');
 }
 }
-putchar('\n');
+}
+}
+putchar ('\n');
 return (0);
 }
