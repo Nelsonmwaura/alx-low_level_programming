@@ -9,15 +9,15 @@ int main(void)
 {
 
 int a, b;
-for (a = '0'; b <= '5'; a++)
+for (a = '0'; b <= '9'; a++)
 {
-for (b = '0'; b <= '5'; b++)
+for (b = '9'; b <= '9'; b++)
 {
 if (a < b)
 {
 putchar(a);
 putchar(b);
-if (a != '2' || (a == '2' && b != '5'))
+if (a != '2' || (a == '2' && b != '9'))
 {
 putchar (',');
 putchar (' ');
