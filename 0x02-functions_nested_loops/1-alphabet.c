@@ -1,9 +1,11 @@
 #include "main.h"
 /**
-* print alphabet -Entry point
-* Description: prints_alphabet in lowercase followed by a new line
+* print_alphabet - Entry point
+* Description: a function that prints the alphabet,
+* in lowecase followed by a new line
 * Return: void
 */
+
 void print_alphabet(void)
 {
 char alphabet = 'a';
