@@ -2,8 +2,7 @@
 
 /**
 * print_alphabet - Entry point
-* Description: prints print_aplhabet_x10 x10 times the alphabet in lowercase,
-*  followed by a new line
+* Description: print_alphabet_x10 - prints alphabet x10 times
 *  Return: void
 */
 void print_alphabet_x10(void)
