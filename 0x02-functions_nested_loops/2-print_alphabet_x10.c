@@ -2,8 +2,8 @@
 
 /**
 * print_alphabet - Entry point
-* Description: print_alphabet_x10 - prints alphabet x10 times
-*  Return: void
+* print_alphabet_x10 - prints alphabet x10 times
+* Return: void
 */
 void print_alphabet_x10(void)
 {
