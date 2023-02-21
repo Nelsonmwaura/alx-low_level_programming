@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main -entry point
-*Description: print_alphabet_x10 Maake alphabet x10 times
-*Return: void
+* main -entry point
+* print_alphabet_x10, Make alphabet x10 times
+* Return: void
 */
 void print_alphabet_x10(void)
 {
