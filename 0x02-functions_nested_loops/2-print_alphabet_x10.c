@@ -2,8 +2,8 @@
 
 /**
 * main -entry point
-* print_alphabet_x10, Make alphabet x10 times
-* Return: void
+* print_alphabet_x10- prints 10 times the alphabet, in lowercase,
+* followed by a new line
 */
 void print_alphabet_x10(void)
 {
