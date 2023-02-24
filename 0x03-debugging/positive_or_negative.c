@@ -4,9 +4,9 @@
 /* more headers goes there */
 /**
 * main - generates random numbers,delcares + OR -
-* Return: 1, if succesful
+* Return: Always 0 (success)
 */
-int main(void)
+int positive_or_negative(void)
 {
 int n;
 
